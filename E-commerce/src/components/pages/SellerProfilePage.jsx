@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import ProductGrid from '../components/ProductGrid';
+import ProductGrid from '../ProductGrid';
 
 export default function SellerProfilePage({ seller, products, onAddToCart, searchTerm }) {
   if (!seller) {
